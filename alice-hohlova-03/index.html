@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Зарегистрируйся на котференцию</title>
+</head>
+<body>
+  <main class="container">
+    <section class="profile">
+      <h2>Анкета посетителя котференции</h2>
+      <form class="profile__form" action="#">
+        <div class="photo">
+          <span>Тут будет фото</span>
+        </div>
+        <div class="name">
+          <label for="name">Кличка</label>
+          <input type="text" class="input" name="name" id="name" placeholder="Буся">
+        </div>
+        <div class="breed">
+          <label for="breed">Порода</label>
+          <input type="text" class="input" name="breed" id="breed" placeholder="Курильский бобтейл">
+        </div>
+        <div class="place">
+          <label for="place">Любимое место для лежания</label>
+          <input type="text" class="input" name="place" id="place" placeholder="Тетрадь с домашкой">
+        </div>
+        <div class="about">
+          <label for="about">О себе</label>
+          <textarea rows="4" class="input" name="about" id="about" placeholder="Необязательно, но надо"></textarea>
+        </div>
+        <div class="food">
+          <label for="food">Любимое лакомство</label>
+        </div>
+        <div class="checkbox-1">
+          <input class="visually-hidden" id="chicken" name="food" type="checkbox" value="1" checked="checked">
+          <label class="checkbox-label" for="chicken">Курочка</label>
+        </div>
+        <div class="checkbox-2">
+          <input class="visually-hidden" id="duck" name="food" type="checkbox" value="2">
+          <label class="checkbox-label" for="duck">Уточка</label>
+        </div>
+        <div class="checkbox-3">
+          <input class="visually-hidden" id="turkey" name="food" type="checkbox" value="3">
+          <label class="checkbox-label" for="turkey">Индеечка</label>
+        </div>
+        <div class="checkbox-4">
+          <input class="visually-hidden" id="other" name="food" type="checkbox" value="4">
+          <label class="checkbox-label" for="other">Другое</label>
+        </div>
+        <div class="submit">
+          <label for="send"><input id="submit" name="send" type="submit" value="Подать заявку" class="submit__btn"></label>
+        </div>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
